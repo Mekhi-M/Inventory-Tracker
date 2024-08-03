@@ -1,5 +1,4 @@
 "use client";
-// import Image from "next/image";
 import { useState, useEffect } from "react";
 import { firestore } from "@/firebase";
 import {
@@ -174,7 +173,7 @@ export default function Home() {
             Inventory Items
           </Typography>
         </Box>
-        <Stack width='800px' height='400px' spacing={2} overflow='auto'>
+        <Stack width='800px' height='350px' spacing={2} overflow='auto'>
           {inventory.map(({ name, quantity }) => (
             <Box
               key={name}
