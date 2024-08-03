@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import { useState, useEffect } from "react";
 import { firestore } from "@/firebase";
 import {
@@ -183,7 +183,7 @@ export default function Home() {
               display='flex'
               alignItems='center'
               justifyContent='space-between'
-              bgColor='#f0f0f0'
+              bgcolor='#f0f0f0'
               padding={5}
             >
               <Typography variant='h3' color='#333' textAlign='center'>
